@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="70dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/album_card"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:layout_weight="7"
+        android:foreground="@drawable/ripple"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <!-- <RelativeLayout
+                 android:id="@+id/header_album_card"
+                 android:layout_width="match_parent"
+                 android:layout_height="100dp"
+                 android:background="#80000000">
+
+                 <ImageView
+                     android:id="@+id/iv_image"
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:scaleType="centerCrop" />
+
+
+                 <ImageView
+                     android:id="@+id/isChecked"
+                     android:layout_width="50dp"
+                     android:layout_height="50dp"
+                     android:layout_centerInParent="true"
+                     android:src="@drawable/ic_checked"
+                     android:tint="@color/white"
+                     android:visibility="visible" />
+
+             </RelativeLayout>-->
+
+            <LinearLayout
+                android:id="@+id/linear_card_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:background="#ffffff"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/tvDate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:maxLines="1"
+                        android:paddingStart="5dp"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="5dp"
+                        android:paddingEnd="20dp"
+                        android:paddingRight="20dp"
+                        android:paddingBottom="5dp"
+                        android:text="Song Name"
+                        android:textColor="#ff666666"
+                        android:textSize="18dp" />
+
+
+                    <TextView
+                        android:id="@+id/tvSize"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:maxLines="1"
+                        android:text="10"
+                        android:textColor="#7d7d7d"
+                        android:textSize="14dp" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <CheckBox
+        android:id="@+id/isChecked"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:background="?android:attr/listChoiceIndicatorMultiple"
+        android:button="@null"
+        android:gravity="center" />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Photo Recovery</string>
+
+    <string name="restoring_number_format">Restored ... %d photos</string>
+    <string name="restoring_number_format_Audio">Restored ... %d Audios</string>
+    <string name="restoring_number_format_video">Restored ... %d videos</string>
+    <string name="restore_folder_path" translatable="false">RestoredPhotos</string>
+
+    <string name="admob_open_ads">ca-app-pub-3940256099942544/3419835294</string>
+    <string name="admob_banner_ads">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_interstitial_ads">	ca-app-pub-3940256099942544/1033173712</string>
+    <string name="privacy_policy">www.google.com</string>
+
+</resources>
