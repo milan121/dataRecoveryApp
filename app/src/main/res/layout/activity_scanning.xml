@@ -48,7 +48,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="40dp"
             android:fontFamily="@font/fontsfree_net_em1"
             android:text="Please Wait.."
             android:textColor="@color/black"
@@ -82,12 +82,13 @@
                 android:layout_height="80dp"
                 android:layout_marginRight="5dp"
                 android:elevation="10dp"
+                android:layout_marginBottom="5dp"
                 app:cardCornerRadius="10dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="#EDD2F3"
+                    android:background="#FFD7AD"
                     android:gravity="center"
                     android:orientation="vertical">
 
@@ -100,7 +101,7 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:padding="10dp"
+                            android:padding="5dp"
                             android:src="@drawable/image" />
 
                     </androidx.cardview.widget.CardView>
@@ -122,6 +123,7 @@
                 android:layout_height="80dp"
                 android:layout_marginRight="5dp"
                 android:elevation="10dp"
+                android:layout_marginBottom="5dp"
                 app:cardCornerRadius="10dp">
 
                 <LinearLayout
@@ -139,7 +141,7 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:padding="10dp"
+                            android:padding="5dp"
                             android:src="@drawable/video" />
 
                     </androidx.cardview.widget.CardView>
@@ -161,12 +163,13 @@
                 android:layout_height="80dp"
                 android:layout_marginRight="5dp"
                 android:elevation="10dp"
+                android:layout_marginBottom="5dp"
                 app:cardCornerRadius="10dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="#FFAB73"
+                    android:background="#FFADDA"
                     android:gravity="center"
                     android:orientation="vertical">
 
@@ -179,7 +182,7 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:padding="10dp"
+                            android:padding="5dp"
                             android:src="@drawable/music" />
 
                     </androidx.cardview.widget.CardView>
@@ -201,12 +204,13 @@
                 android:layout_height="80dp"
                 android:layout_marginRight="5dp"
                 android:elevation="10dp"
+                android:layout_marginBottom="5dp"
                 app:cardCornerRadius="10dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="#EDD2F3"
+                    android:background="#B2ADFF"
                     android:gravity="center"
                     android:orientation="vertical">
 
@@ -218,8 +222,8 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:padding="10dp"
-                            android:src="@drawable/ic_info" />
+                            android:padding="5dp"
+                            android:src="@drawable/ic_other" />
 
                     </androidx.cardview.widget.CardView>
 
@@ -248,7 +252,10 @@
                 android:id="@+id/animation_view"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
                 app:lottie_autoPlay="true"
                 app:lottie_loop="true"
                 app:lottie_rawRes="@raw/redar1" />

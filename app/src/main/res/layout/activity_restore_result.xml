@@ -15,23 +15,24 @@
 
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="400dp"
             android:layout_centerInParent="true"
-            android:layout_margin="5dp"
-            app:cardBackgroundColor="@color/white"
+            android:layout_margin="15dp"
+            app:cardBackgroundColor="#9E97FD"
             app:cardCornerRadius="4dp"
             app:cardElevation="2dp">
 
             <LinearLayout
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/white"
+                app:cardBackgroundColor="#FFD7AD"
+                android:layout_gravity="center"
                 android:orientation="vertical">
 
                 <com.airbnb.lottie.LottieAnimationView
                     android:id="@+id/img_done"
                     android:layout_width="match_parent"
-                    android:layout_height="70dp"
+                    android:layout_height="200dp"
                     android:layout_centerHorizontal="true"
                     android:layout_gravity="center"
                     android:layout_marginTop="5dip"
@@ -49,7 +50,7 @@
                     android:fontFamily="@font/futura_medium_bt"
                     android:text="5 file Restored"
                     android:textAllCaps="true"
-                    android:textColor="@color/purple_200"
+                    android:textColor="#ffffff"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -58,13 +59,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_marginTop="5dip"
+                    android:layout_marginTop="20dp"
                     android:layout_marginBottom="10dp"
                     android:fontFamily="@font/futura_medium_bt"
                     android:text="5 file Restored"
                     android:textAllCaps="true"
-                    android:textColor="@color/purple_200"
-                    android:textSize="12sp" />
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
 
                 <View
                     android:layout_width="wrap_content"

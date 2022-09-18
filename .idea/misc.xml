@@ -4,6 +4,28 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="../../../../../../../layout/custom_preview.xml" value="0.2916666666666667" />
+        <entry key="app/src/main/res/drawable/rectangle.xml" value="0.1835" />
+        <entry key="app/src/main/res/layout/activity_album.xml" value="0.29739583333333336" />
+        <entry key="app/src/main/res/layout/activity_audio.xml" value="0.29739583333333336" />
+        <entry key="app/src/main/res/layout/activity_audio2.xml" value="0.29739583333333336" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2928205128205128" />
+        <entry key="app/src/main/res/layout/activity_other.xml" value="0.29739583333333336" />
+        <entry key="app/src/main/res/layout/activity_other_album.xml" value="0.29739583333333336" />
+        <entry key="app/src/main/res/layout/activity_photos.xml" value="0.29739583333333336" />
+        <entry key="app/src/main/res/layout/activity_restore_result.xml" value="0.2928205128205128" />
+        <entry key="app/src/main/res/layout/activity_scanning.xml" value="0.29739583333333336" />
+        <entry key="app/src/main/res/layout/activity_setting.xml" value="0.29739583333333336" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.2928205128205128" />
+        <entry key="app/src/main/res/layout/activity_video.xml" value="0.29739583333333336" />
+        <entry key="app/src/main/res/layout/activity_video_album.xml" value="0.29739583333333336" />
+        <entry key="app/src/main/res/layout/card_album_audio.xml" value="0.29739583333333336" />
+        <entry key="app/src/main/res/layout/card_album_new.xml" value="0.29739583333333336" />
+        <entry key="app/src/main/res/layout/card_audio.xml" value="0.29739583333333336" />
+        <entry key="app/src/main/res/layout/card_photo.xml" value="0.29739583333333336" />
+        <entry key="app/src/main/res/layout/item_image.xml" value="0.29739583333333336" />
+        <entry key="app/src/main/res/layout/layout_loading_dialog.xml" value="0.29739583333333336" />
+        <entry key="app/src/main/res/menu/album_menu.xml" value="0.29739583333333336" />
+        <entry key="app/src/main/res/menu/toolbar_menu.xml" value="0.29739583333333336" />
       </map>
     </option>
   </component>

@@ -95,7 +95,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_marginLeft="20dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="16dp"
             android:layout_marginRight="20dp"
             android:layout_weight="1"
             android:orientation="horizontal"
@@ -112,26 +112,27 @@
                 android:layout_weight="1"
                 android:elevation="10dp"
                 android:foreground="?attr/selectableItemBackground"
-                app:cardCornerRadius="10dp">
+                app:cardCornerRadius="20dp">
 
                 <LinearLayout
                     android:id="@+id/allImages"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="#EDD2F3"
+                    android:background="#FFD7AD"
                     android:foreground="?attr/selectableItemBackground"
                     android:gravity="center"
                     android:orientation="vertical">
 
                     <androidx.cardview.widget.CardView
-                        android:layout_width="70dp"
-                        android:layout_height="70dp"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="5dp"
                         app:cardCornerRadius="100dp">
 
-                        <ImageView
+                        <androidx.appcompat.widget.AppCompatImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:padding="15dp"
+                            android:padding="2dp"
                             android:src="@drawable/image" />
 
                     </androidx.cardview.widget.CardView>
@@ -160,7 +161,7 @@
                 android:layout_marginLeft="5dp"
                 android:layout_weight="1"
                 android:elevation="10dp"
-                app:cardCornerRadius="10dp">
+                app:cardCornerRadius="20dp">
 
                 <LinearLayout
                     android:id="@+id/allVideos"
@@ -172,14 +173,15 @@
                     android:orientation="vertical">
 
                     <androidx.cardview.widget.CardView
-                        android:layout_width="70dp"
-                        android:layout_height="70dp"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="5dp"
                         app:cardCornerRadius="100dp">
 
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:padding="15dp"
+                            android:padding="2dp"
                             android:src="@drawable/video" />
 
                     </androidx.cardview.widget.CardView>
@@ -224,26 +226,27 @@
                 android:layout_marginRight="5dp"
                 android:layout_weight="1"
                 android:elevation="10dp"
-                app:cardCornerRadius="10dp">
+                app:cardCornerRadius="20dp">
 
                 <LinearLayout
                     android:id="@+id/allAudios"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="#FFAB73"
+                    android:background="#FFADDA"
                     android:foreground="?attr/selectableItemBackground"
                     android:gravity="center"
                     android:orientation="vertical">
 
                     <androidx.cardview.widget.CardView
-                        android:layout_width="70dp"
-                        android:layout_height="70dp"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="5dp"
                         app:cardCornerRadius="100dp">
 
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:padding="15dp"
+                            android:padding="2dp"
                             android:src="@drawable/music" />
 
                     </androidx.cardview.widget.CardView>
@@ -271,27 +274,28 @@
                 android:layout_marginLeft="5dp"
                 android:layout_weight="1"
                 android:elevation="10dp"
-                app:cardCornerRadius="10dp">
+                app:cardCornerRadius="20dp">
 
                 <LinearLayout
                     android:id="@+id/allOthers"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="#F09AE9"
+                    android:background="#B2ADFF"
                     android:foreground="?attr/selectableItemBackground"
                     android:gravity="center"
                     android:orientation="vertical">
 
                     <androidx.cardview.widget.CardView
-                        android:layout_width="70dp"
-                        android:layout_height="70dp"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="5dp"
                         app:cardCornerRadius="100dp">
 
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:padding="10dp"
-                            android:src="@drawable/ic_info" />
+                            android:padding="5dp"
+                            android:src="@drawable/ic_other" />
 
                     </androidx.cardview.widget.CardView>
 
@@ -317,21 +321,21 @@
         <androidx.cardview.widget.CardView
 
             android:layout_width="match_parent"
-            android:layout_height="0dp"
+            android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="20dp"
             android:layout_marginRight="20dp"
-            android:layout_weight="1"
+            android:layout_weight="0.5"
             android:background="?attr/selectableItemBackground"
             android:clickable="true"
             android:elevation="10dp"
             android:focusable="true"
-            app:cardCornerRadius="10dp">
+            app:cardCornerRadius="20dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="#B074E9">
+                android:background="#ADDBFF">
 
                 <TextView
                     android:id="@+id/startBtn"
@@ -342,7 +346,7 @@
                     android:gravity="center"
                     android:text="Start Scanning"
                     android:textColor="@color/white"
-                    android:textSize="25dp" />
+                    android:textSize="25sp" />
 
             </LinearLayout>
         </androidx.cardview.widget.CardView>

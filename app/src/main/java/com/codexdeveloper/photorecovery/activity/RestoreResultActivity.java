@@ -34,7 +34,7 @@ public class RestoreResultActivity extends AppCompatActivity {
     public void intData() {
         int int_position = getIntent().getIntExtra("value", 0);
         TextView tvStatus = (TextView) findViewById(R.id.tvStatus);
-        tvStatus.setText(String.valueOf(int_position));
+        tvStatus.setText(String.valueOf(int_position)+" File Restored");
         TextView tvPath = (TextView) findViewById(R.id.tvPath);
         tvPath.setText("File Restored to" + "\n" + "/" + Config.RECOVER_DIRECTORY);
     }

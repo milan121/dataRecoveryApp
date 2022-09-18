@@ -55,7 +55,7 @@
             android:layout_margin="10dp"
             android:layout_weight="1"
             android:elevation="10dp"
-            app:cardBackgroundColor="#B074E9"
+            app:cardBackgroundColor="#B2ADFF"
             app:cardCornerRadius="10dp">
 
             <TextView
@@ -80,7 +80,7 @@
             android:layout_margin="10dp"
             android:layout_weight="1"
             android:elevation="10dp"
-            app:cardBackgroundColor="#F3C5C5"
+            app:cardBackgroundColor="#FFADAD"
             app:cardCornerRadius="10dp">
 
             <TextView

@@ -38,12 +38,12 @@
         android:layout_marginTop="20dp"
         android:layout_marginRight="20dp"
         android:elevation="5dp"
-        app:cardCornerRadius="20dp">
+        app:cardCornerRadius="10dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#F5F4F4"
+            android:background="#FFD7AD"
             android:foreground="?attr/selectableItemBackground"
             android:orientation="vertical">
 
@@ -77,13 +77,13 @@
         android:layout_marginRight="20dp"
         android:elevation="5dp"
         android:foreground="?attr/selectableItemBackground"
-        app:cardCornerRadius="20dp">
+        app:cardCornerRadius="10dp">
 
         <LinearLayout
             android:id="@+id/ratting"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#F5F4F4"
+            android:background="#FFADAD"
             android:gravity="center_vertical"
             android:orientation="vertical">
 
@@ -105,13 +105,13 @@
         android:layout_marginTop="20dp"
         android:layout_marginRight="20dp"
         android:elevation="5dp"
-        app:cardCornerRadius="20dp">
+        app:cardCornerRadius="10dp">
 
         <LinearLayout
             android:id="@+id/share"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#F5F4F4"
+            android:background="#FFADDA"
             android:foreground="?attr/selectableItemBackground"
             android:gravity="center_vertical"
             android:orientation="vertical">
@@ -135,13 +135,13 @@
         android:layout_marginTop="20dp"
         android:layout_marginRight="20dp"
         android:elevation="5dp"
-        app:cardCornerRadius="20dp">
+        app:cardCornerRadius="10dp">
 
         <LinearLayout
             android:id="@+id/privacy_policy"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#F5F4F4"
+            android:background="#B2ADFF"
             android:gravity="center_vertical"
             android:foreground="?attr/selectableItemBackground"
             android:orientation="vertical">

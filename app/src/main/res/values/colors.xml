@@ -9,4 +9,9 @@
     <color name="white">#FFFFFFFF</color>
     <color name="md_grey_100">#F5F5F5</color>
     <color name="md_grey_500">#9E9E9E</color>
+    <color name="orange_10">#FFC56F</color>
+    <color name="green_10">#C36FFF</color>
+    <color name="red_10">#FF6F6F</color>
+    <color name="blue_10">#6FD1FF</color>
+    <color name="blue_20">#748DE9</color>
 </resources>
