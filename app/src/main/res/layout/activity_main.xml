@@ -60,7 +60,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:scaleType="fitXY"
-                    android:src="@drawable/recycling" />
+                    android:src="@drawable/data_recover" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -72,7 +72,8 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Recycling"
+                        android:text="Recycling.."
+                        android:textStyle="bold"
                         android:textColor="@color/black"
                         android:textSize="25dp" />
 
@@ -112,7 +113,9 @@
                 android:layout_weight="1"
                 android:elevation="10dp"
                 android:foreground="?attr/selectableItemBackground"
-                app:cardCornerRadius="20dp">
+                app:cardCornerRadius="20dp"
+                android:layout_marginBottom="2dp"
+                tools:ignore="NestedWeights">
 
                 <LinearLayout
                     android:id="@+id/allImages"
@@ -142,7 +145,8 @@
                         android:layout_height="wrap_content"
                         android:text="Image Recover"
                         android:textColor="@color/white"
-                        android:textSize="18dp" />
+                        android:textStyle="bold"
+                        android:textSize="17dp" />
 
                     <TextView
                         android:id="@+id/totalImage"
@@ -161,6 +165,7 @@
                 android:layout_marginLeft="5dp"
                 android:layout_weight="1"
                 android:elevation="10dp"
+                android:layout_marginBottom="2dp"
                 app:cardCornerRadius="20dp">
 
                 <LinearLayout
@@ -191,7 +196,8 @@
                         android:layout_height="wrap_content"
                         android:text="Video Recover"
                         android:textColor="@color/white"
-                        android:textSize="18dp" />
+                        android:textStyle="bold"
+                        android:textSize="17sp" />
 
                     <TextView
                         android:id="@+id/totalVideo"
@@ -226,6 +232,7 @@
                 android:layout_marginRight="5dp"
                 android:layout_weight="1"
                 android:elevation="10dp"
+                android:layout_marginBottom="2dp"
                 app:cardCornerRadius="20dp">
 
                 <LinearLayout
@@ -256,7 +263,8 @@
                         android:layout_height="wrap_content"
                         android:text="Audio Recover"
                         android:textColor="@color/white"
-                        android:textSize="18dp" />
+                        android:textStyle="bold"
+                        android:textSize="17sp" />
 
                     <TextView
                         android:id="@+id/totalAudio"
@@ -274,6 +282,7 @@
                 android:layout_marginLeft="5dp"
                 android:layout_weight="1"
                 android:elevation="10dp"
+                android:layout_marginBottom="2dp"
                 app:cardCornerRadius="20dp">
 
                 <LinearLayout
@@ -304,7 +313,8 @@
                         android:layout_height="wrap_content"
                         android:text="Other Recover"
                         android:textColor="@color/white"
-                        android:textSize="18dp" />
+                        android:textStyle="bold"
+                        android:textSize="17sp" />
 
                     <TextView
                         android:id="@+id/totalOther"
@@ -325,17 +335,17 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="20dp"
             android:layout_marginRight="20dp"
-            android:layout_weight="0.5"
+            android:layout_weight="0.3"
             android:background="?attr/selectableItemBackground"
             android:clickable="true"
             android:elevation="10dp"
             android:focusable="true"
-            app:cardCornerRadius="20dp">
+            app:cardCornerRadius="10dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="#ADDBFF">
+                android:background="#ADCEFF">
 
                 <TextView
                     android:id="@+id/startBtn"
@@ -345,8 +355,9 @@
                     android:foreground="?attr/selectableItemBackground"
                     android:gravity="center"
                     android:text="Start Scanning"
-                    android:textColor="@color/white"
-                    android:textSize="25sp" />
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
 
             </LinearLayout>
         </androidx.cardview.widget.CardView>
