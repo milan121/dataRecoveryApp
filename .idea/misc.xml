@@ -5,6 +5,7 @@
       <map>
         <entry key="../../../../../../../layout/custom_preview.xml" value="0.2916666666666667" />
         <entry key="app/src/main/res/drawable/rectangle.xml" value="0.1835" />
+        <entry key="app/src/main/res/layout/activity_about_us.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_album.xml" value="0.29739583333333336" />
         <entry key="app/src/main/res/layout/activity_audio.xml" value="0.29739583333333336" />
         <entry key="app/src/main/res/layout/activity_audio2.xml" value="0.29739583333333336" />

@@ -10,7 +10,7 @@
     <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
 
     <application
-        android:name="com.codexdeveloper.photorecovery.activity.MyApplication"
+        android:name=".activity.MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -21,9 +21,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PhotoRecoveryNew"
         android:usesCleartextTraffic="true">
-
         <activity
-            android:name="com.codexdeveloper.photorecovery.activity.SplashActivity"
+            android:name=".activity.AboutUsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -31,18 +33,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.codexdeveloper.photorecovery.activity.MainActivity"></activity>
-        <activity android:name="com.codexdeveloper.photorecovery.activity.SettingActivity" />
-        <activity android:name="com.codexdeveloper.photorecovery.activity.OtherActivity" />
-        <activity android:name="com.codexdeveloper.photorecovery.activity.OtherAlbumActivity" />
-        <activity android:name="com.codexdeveloper.photorecovery.activity.AudioActivity" />
-        <activity android:name="com.codexdeveloper.photorecovery.activity.AudioAlbumActivity" />
-        <activity android:name="com.codexdeveloper.photorecovery.activity.VideoActivity" />
-        <activity android:name="com.codexdeveloper.photorecovery.activity.RestoreResultActivity" />
-        <activity android:name="com.codexdeveloper.photorecovery.activity.PhotosActivity" />
-        <activity android:name="com.codexdeveloper.photorecovery.activity.VideoAlbumActivity" />
-        <activity android:name="com.codexdeveloper.photorecovery.activity.AlbumActivity" />
-        <activity android:name="com.codexdeveloper.photorecovery.activity.ScanningActivity" />
+        <activity android:name=".activity.MainActivity" />
+        <activity android:name=".activity.SettingActivity" />
+        <activity android:name=".activity.OtherActivity" />
+        <activity android:name=".activity.OtherAlbumActivity" />
+        <activity android:name=".activity.AudioActivity" />
+        <activity android:name=".activity.AudioAlbumActivity" />
+        <activity android:name=".activity.VideoActivity" />
+        <activity android:name=".activity.RestoreResultActivity" />
+        <activity android:name=".activity.PhotosActivity" />
+        <activity android:name=".activity.VideoAlbumActivity" />
+        <activity android:name=".activity.AlbumActivity" />
+        <activity android:name=".activity.ScanningActivity" />
 
         <provider
             android:name="androidx.core.content.FileProvider"
@@ -57,7 +59,6 @@
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-3940256099942544~3347511713" />
-
     </application>
 
 </manifest>

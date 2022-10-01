@@ -16,7 +16,7 @@ public class Config {
     public static final String AUDIO_RECOVER_DIRECTORY;
     public static final String OTHER_RECOVER_DIRECTORY;
 
-    public static final String APP_NAME = "Add_AppName";
+    public static final String APP_NAME = "DataRecovery";
 
 
     private Config() {

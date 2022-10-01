@@ -1,7 +1,5 @@
 package com.codexdeveloper.photorecovery.activity;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.net.Uri;
@@ -9,15 +7,16 @@ import android.os.Bundle;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.google.android.material.appbar.MaterialToolbar;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.codexdeveloper.photorecovery.BuildConfig;
 import com.codexdeveloper.photorecovery.R;
 import com.codexdeveloper.photorecovery.utills.Config;
+import com.google.android.material.appbar.MaterialToolbar;
 
 public class SettingActivity extends AppCompatActivity {
 
-    LinearLayout privacy_policy, ratting, share;
+    LinearLayout privacy_policy, ratting, share, about;
 
     MaterialToolbar toolBar;
 
@@ -32,6 +31,7 @@ public class SettingActivity extends AppCompatActivity {
         privacy_policy = findViewById(R.id.privacy_policy);
         ratting = findViewById(R.id.ratting);
         share = findViewById(R.id.share);
+        about = findViewById(R.id.about);
         toolBar = findViewById(R.id.toolBar);
         storagePath = findViewById(R.id.storagePath);
 
@@ -79,6 +79,10 @@ public class SettingActivity extends AppCompatActivity {
                 //Do Something
             }
 
+        });
+
+        about.setOnClickListener(v -> {
+            AboutUsActivity.start(this);
         });
 
     }
