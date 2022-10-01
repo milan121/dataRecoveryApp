@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "350964448467",
+    "project_id": "data-recovery-f5f09",
+    "storage_bucket": "data-recovery-f5f09.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:350964448467:android:a290403e02013886e62826",
+        "android_client_info": {
+          "package_name": "com.codexdeveloper.photorecovery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "350964448467-p917o4pqfmb2vqphdvdsu737kiq665ob.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.codexdeveloper.photorecovery",
+            "certificate_hash": "8d4477872edf2a4d474955f744380e33ec961530"
+          }
+        },
+        {
+          "client_id": "350964448467-k1d93u5t3m1vbhg7ciuv44g59t219me9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjxEef8F9-McJcJhoyNT2eBLJfUO-Rwgk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "350964448467-k1d93u5t3m1vbhg7ciuv44g59t219me9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

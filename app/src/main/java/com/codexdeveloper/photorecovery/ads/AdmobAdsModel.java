@@ -33,9 +33,10 @@ public class AdmobAdsModel {
     }
 
     public void bannerAds(Context context, ViewGroup frameLayout) {
-
+        AdsSession session = new AdsSession(context);
+        if (session.getAdsIds(AdsSession.BANNER).isEmpty()) return;
         AdView adView = new AdView(context);
-        adView.setAdUnitId(context.getString(R.string.admob_banner_ads));
+        adView.setAdUnitId(session.getAdsIds(AdsSession.BANNER));
         adView.setAdSize(getAdSize((Activity) context));
         frameLayout.addView(adView);
         AdRequest build = new AdRequest.Builder().build();
@@ -91,10 +92,11 @@ public class AdmobAdsModel {
 
     public void interstitialAdLoad(Context context) {
 
-
+        AdsSession session = new AdsSession(context);
+        if (session.getAdsIds(AdsSession.INTERSTITIAL).isEmpty()) return;
         AdRequest adRequest = new AdRequest.Builder().build();
 
-        InterstitialAd.load(context, context.getString(R.string.admob_interstitial_ads), adRequest, new InterstitialAdLoadCallback() {
+        InterstitialAd.load(context, session.getAdsIds(AdsSession.INTERSTITIAL), adRequest, new InterstitialAdLoadCallback() {
             @Override
             public void onAdLoaded(@NonNull InterstitialAd interstitialAd) {
                 super.onAdLoaded(interstitialAd);

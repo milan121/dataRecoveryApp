@@ -51,6 +51,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        MyApplication.getInstance(this);
 
         new AdmobAdsModel(this).bannerAds(this, findViewById(R.id.adsView));
 
