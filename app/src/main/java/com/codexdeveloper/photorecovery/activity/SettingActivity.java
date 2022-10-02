@@ -16,7 +16,7 @@ import com.google.android.material.appbar.MaterialToolbar;
 
 public class SettingActivity extends AppCompatActivity {
 
-    LinearLayout privacy_policy, ratting, share, about;
+    LinearLayout privacy_policy, ratting, share, about,moreApps;
 
     MaterialToolbar toolBar;
 
@@ -28,6 +28,7 @@ public class SettingActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_setting);
 
+        moreApps = findViewById(R.id.moreApps);
         privacy_policy = findViewById(R.id.privacy_policy);
         ratting = findViewById(R.id.ratting);
         share = findViewById(R.id.share);
@@ -42,8 +43,13 @@ public class SettingActivity extends AppCompatActivity {
         });
 
         privacy_policy.setOnClickListener(v -> {
+            PrivacyPolicyActivity.start(this);
+
+        });
+
+        moreApps.setOnClickListener(v -> {
             try {
-                Uri marketUri = Uri.parse(getString(R.string.privacy_policy));
+                Uri marketUri = Uri.parse(getString(R.string.more_apps));
                 Intent marketIntent = new Intent(Intent.ACTION_VIEW, marketUri);
                 startActivity(marketIntent);
             } catch (ActivityNotFoundException e) {

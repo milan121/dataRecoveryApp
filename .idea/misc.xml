@@ -4,6 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="../../../../../../../layout/custom_preview.xml" value="0.2916666666666667" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1835" />
+        <entry key="app/src/main/res/drawable/ic_error.xml" value="0.1835" />
+        <entry key="app/src/main/res/drawable/ic_info.xml" value="0.1835" />
+        <entry key="app/src/main/res/drawable/ic_more.xml" value="0.1835" />
+        <entry key="app/src/main/res/drawable/ic_setting.xml" value="0.1835" />
         <entry key="app/src/main/res/drawable/rectangle.xml" value="0.1835" />
         <entry key="app/src/main/res/layout/activity_about_us.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_album.xml" value="0.29739583333333336" />
@@ -13,6 +18,7 @@
         <entry key="app/src/main/res/layout/activity_other.xml" value="0.29739583333333336" />
         <entry key="app/src/main/res/layout/activity_other_album.xml" value="0.29739583333333336" />
         <entry key="app/src/main/res/layout/activity_photos.xml" value="0.29739583333333336" />
+        <entry key="app/src/main/res/layout/activity_privacy_policy.xml" value="0.29739583333333336" />
         <entry key="app/src/main/res/layout/activity_restore_result.xml" value="0.2928205128205128" />
         <entry key="app/src/main/res/layout/activity_scanning.xml" value="0.29739583333333336" />
         <entry key="app/src/main/res/layout/activity_setting.xml" value="0.29739583333333336" />
@@ -27,6 +33,8 @@
         <entry key="app/src/main/res/layout/layout_loading_dialog.xml" value="0.29739583333333336" />
         <entry key="app/src/main/res/menu/album_menu.xml" value="0.29739583333333336" />
         <entry key="app/src/main/res/menu/toolbar_menu.xml" value="0.29739583333333336" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1835" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1835" />
       </map>
     </option>
   </component>

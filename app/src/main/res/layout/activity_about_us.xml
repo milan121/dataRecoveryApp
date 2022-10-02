@@ -109,7 +109,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="10dp"
-                android:layout_marginTop="25dp"
+                android:layout_marginTop="20dp"
                 android:background="#ADDBFF"
                 android:foreground="?attr/selectableItemBackground"
                 android:orientation="horizontal">
@@ -124,10 +124,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:layout_marginLeft="20dp"
+                    android:layout_marginLeft="10dp"
                     android:text="Codex Developers"
-                    android:textSize="15sp"
-                    android:textStyle="bold" />
+                    android:textSize="14sp"/>
             </LinearLayout>
 
 
@@ -152,10 +151,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:layout_marginLeft="20dp"
+                    android:layout_marginLeft="10dp"
                     android:text="codexdevelopers.in@gmail.com"
-                    android:textSize="15sp"
-                    android:textStyle="bold" />
+                    android:textSize="14sp" />
             </LinearLayout>
 
 
@@ -190,7 +188,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="10dp"
-                android:layout_marginTop="25dp"
+                android:layout_marginTop="20dp"
                 android:orientation="horizontal">
 
                 <ImageView
